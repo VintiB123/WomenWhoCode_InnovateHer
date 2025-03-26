@@ -92,9 +92,9 @@ const Header = () => {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <h1 className="mt-2 text-3xl font-semibold tracking-tight">
+          {/* <h1 className="mt-2 text-3xl font-semibold tracking-tight">
             {breadcrumbItems[breadcrumbItems.length - 1]?.label || "Home"}
-          </h1>
+          </h1> */}
         </div>
         <div className="flex-center gap-x-3">
           <VoiceControl />
