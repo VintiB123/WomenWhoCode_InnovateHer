@@ -5,7 +5,7 @@ import { encryptValue } from "../helpers/security.helper.js";
 export const onboardMentee = async (req, res) => {
   try {
     const {
-      name,
+      userName,
       email,
       password,
       phoneNumber,
@@ -20,7 +20,7 @@ export const onboardMentee = async (req, res) => {
     const encryptedPhoneNumber = phoneNumber ? encryptValue(phoneNumber) : null;
 
     const mentee = new Mentee({
-      name,
+      userName,
       email,
       password: encryptedPassword,
       phoneNumber: encryptedPhoneNumber,
