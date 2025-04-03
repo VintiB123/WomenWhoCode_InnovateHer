@@ -5,7 +5,7 @@ from services.gemini_game_flow import get_gemini_response
 from services.wellness import process_input
 from services.scenariosaga import ScenarioSaga
 import base64
-from chatbot import ShopmartChatbot, ChatQuery, ChatResponse
+from chatbot import MentorHerChatbot, ChatQuery, ChatResponse
 from agents import seo_optimizer, email_manager, product_recommendation, competitor_watchdog
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -126,12 +126,12 @@ async def analyze_sentiment_endpoint(request: SentimentRequest):
 
 # Initialize the chatbot
 try:
-    shopmart_chatbot = ShopmartChatbot()
+    shopmart_chatbot = MentorHerChatbot()
 except Exception as e:
     logger.critical(f"Chatbot initialization failed: {str(e)}")
     raise
 
-@app.post("/api/chat", response_model=ChatResponse)
+@app.post("/chat", response_model=ChatResponse)
 async def chat_endpoint(query: ChatQuery = Body(...)):
     """Endpoint to process chat queries using the ShopmartChatbot."""
     try:
