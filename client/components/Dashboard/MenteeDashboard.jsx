@@ -31,7 +31,10 @@ const ProfileCard = ({ user }) => {
         <div className="relative inline-block mb-4 group">
           <div className="w-32 h-32 mx-auto relative">
             <div className="rounded-full w-full h-full flex items-center justify-center border-4 border-white shadow-lg bg-gradient-to-r from-purple-600 to-purple-400">
-              <h1 className="text-4xl font-bold text-white">KV</h1>
+              <h1 className="text-4xl font-bold text-white">
+                {" "}
+                {user.charAt(0).toUpperCase()}
+              </h1>
             </div>
             <button className="absolute bottom-0 right-0 bg-white text-blue-500 rounded-full p-2 shadow-lg hover:bg-blue-50 transition-colors duration-300">
               <Edit size={16} />
@@ -39,10 +42,7 @@ const ProfileCard = ({ user }) => {
           </div>
         </div>
         <div className="mb-4">
-          <h2 className="text-xl font-bold text-gray-800">
-            {" "}
-            {user.charAt(0).toUpperCase()}
-          </h2>
+          <h2 className="text-xl font-bold text-gray-800"> {user}</h2>
           <p className="text-gray-500 text-sm flex items-center justify-center">
             <Briefcase size={14} className="mr-2 text-gray-400" />
             UI/UX Designer
