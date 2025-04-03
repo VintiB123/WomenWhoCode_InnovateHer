@@ -6,7 +6,7 @@ export const onboardMentor = async (req, res) => {
     console.log("Headers:", req.headers);
     console.log("Body:", req.body);
     const {
-      name,
+      userName,
       email,
       password,
       phoneNumber,
@@ -20,7 +20,7 @@ export const onboardMentor = async (req, res) => {
     const encryptedPhoneNumber = phoneNumber ? encryptValue(phoneNumber) : null;
 
     const newMentor = new Mentor({
-      name,
+      userName,
       email,
       password: encryptedPassword,
       designation,

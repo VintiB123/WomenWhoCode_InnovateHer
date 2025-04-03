@@ -40,7 +40,7 @@ const SignInPage = () => {
     setIsLoading(true);
     console.log(`${NODE_SERVER_URL}/auth/login`);
     try {
-      const response = await fetch(`${NODE_SERVER_URL}/auth/login`, {
+      const response = await fetch(`${NODE_SERVER_URL}/api/auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
