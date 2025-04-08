@@ -1,5 +1,7 @@
 # MentorHer: Empowering Women in Tech
 
+![MentorHer Logo](logo.png)
+
 MentorHer is a scalable mentorship platform designed to empower women in technology through personalized career guidance, dynamic mentor-mentee matching, and AI-driven development tools. Built using a full-stack DXP (Digital Experience Platform) approach, MentorHer integrates modern technologies and AI models to offer a secure, inclusive, and interactive space for career growth.
 
 ---
