@@ -16,8 +16,6 @@ MentorHer is a scalable mentorship platform designed to empower women in technol
 - [Usage](#usage)
 - [Impact](#impact)
 - [Future Vision](#future-vision)
-- [Contributing](#contributing)
-- [License](#license)
 - [Demo](#demo)
 
 ---
@@ -129,22 +127,6 @@ python app.py  # or main FastAPI script
 - Voice/video diary for goal tracking
 - Internationalization & regional mentors
 - Partnering with universities and companies
-
----
-
-## 🤝 Contributing
-We welcome your contributions! 🚀
-
-1. Fork this repo
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes and commit: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Submit a pull request 💡
-
----
-
-## 📜 License
-MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
