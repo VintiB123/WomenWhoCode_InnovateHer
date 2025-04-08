@@ -64,24 +64,9 @@ Below is the system workflow diagram for MentorHer, highlighting user flow, AI/M
 
 ## 🛠️ Technology Stack
 
-### Frontend
-- Next.js
-- Tailwind CSS
-- Chart.js
+Below are the different techstacks which we used for MentorHer:
 
-### Backend
-- Flask
-
-### Database
-- MongoDB
-
-### AI/ML
-- Python
-- Gemini LLMs (Large Language Models)
-- Llama 70 b from groq
-
-### Deployment
-- Vercel (Frontend)
+![MentorHer TechStack](tech stack.jpg)
 
 ---
 
