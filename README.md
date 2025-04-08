@@ -83,6 +83,7 @@ git clone https://github.com/VintiB123/WomenWhoCode_InnovateHer
 
 ### Client-Side (Frontend)
 ```bash
+cd WomenWhoCode_InnovateHer
 cd client
 npm install
 npm run dev
