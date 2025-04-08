@@ -54,7 +54,7 @@ MentorHer uses a DXP-based architecture that enables:
 - **Scalable & Modular Architecture**
 
 ---
-## 🧭 Architecture
+## 🧭 Work Flow
 
 Below is the system workflow diagram for MentorHer, highlighting user flow, AI/ML integration, data encryption, and matching logic:
 
@@ -62,11 +62,13 @@ Below is the system workflow diagram for MentorHer, highlighting user flow, AI/M
 
 ------
 
-## 🛠️ Technology Stack
 
-Below are the different techstacks which we used for MentorHer:
+## 🧱 Tech Stack Diagram
 
-![MentorHer TechStack](tech stack.jpg)
+Below are the different tech stacks used for MentorHer:
+
+![MentorHer TechStack](tech%20stack.jpg)
+
 
 ---
 
