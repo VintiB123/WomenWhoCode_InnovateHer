@@ -1,3 +1,39 @@
 # WomenWhoCode_InnovateHer
-MentorHer is an AI-powered virtual mentor designed to guide, support, and empower women in tech. 
-Our platform offers a comprehensive suite of features designed to empower women in tech through effective mentorship. It begins with secure user registration and profile management that allows both mentors and mentees to showcase their skills, experience, and career goals. An intelligent matching system pairs users based on these criteria, using near-peer matching algorithms and providing options for administrator oversight to ensure compatibility. Integrated scheduling and calendar synchronization make it easy to book and track mentoring sessions through automated reminders. The platform supports real-time communication via live chat, multimedia messaging, facilitating seamless virtual interactions. A dedicated discussion forum and Q&A board foster a vibrant community for resource sharing and group discussions, while a built-in mentorship journal and goal tracker help users set and monitor progress. Users also have access to a centralized resource library filled with training materials, webinars, and articles, and are further motivated by gamification elements such as badges, points, and leaderboards. Advanced AI-driven recommendations offer personalized mentor match suggestions and content based on individual skill gaps and interests, and an AI-powered career pathway generator creates customized development roadmaps by analyzing user inputs, goals, and industry trends. All these features are supported by robust security protocols and a scalable, modular design, ensuring a seamless, engaging, and inclusive experience for a global audience.
+MentorHer is an AI-powered virtual mentor designed to guide, support, and empower women in tech. Features include:
+🔐User Registration & Profile Management
+Secure user sign-up and login
+Personalized profiles for mentors and mentees to showcase skills, experience, and goals
+
+🤝 Intelligent Mentorship Matching
+Near-peer algorithmic matching based on interests, goals, and experience
+Admin panel for reviewing and managing match quality
+
+📅 Integrated Scheduling System
+Calendar sync with booking system
+Automated session reminders via email/notifications
+
+💬 Real-Time Communication
+Live chat functionality
+Support for multimedia messaging (text, images, attachments)
+
+🧵 Discussion Forum & Q&A Board
+Community-driven resource sharing
+Group discussions and peer-to-peer learning
+
+📓 Mentorship Journals & Goal Trackers
+Users can log session notes, reflections, and insights
+Set and monitor progress toward personalized goals
+
+📚 Resource Library
+Central hub for curated learning materials, webinars, and articles
+Search and filter capabilities for easy access
+
+🤖 AI-Powered Personalization
+Smart mentor suggestions based on skill gaps and goals
+Career pathway generator that creates custom development roadmaps
+
+🛡️ Security & Scalability
+Role-based access control and data encryption
+Modular architecture designed for global scalability and easy feature expansion
+
+Video: https://youtu.be/G1qkSbkQUiM
